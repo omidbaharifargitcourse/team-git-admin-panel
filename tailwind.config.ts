@@ -10,6 +10,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        vazirmatn: "var(--font-vazirmatn)",
+      },
       colors: {
         customGray: {
           100: "#eee",
