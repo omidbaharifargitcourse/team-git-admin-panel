@@ -9,7 +9,20 @@ const config: Config = {
     "./domain/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customGray: {
+          100: "#eee",
+          200: "#aaa",
+          300: "#888",
+          400: "#666",
+          500: "#222",
+        },
+        customBlue: {
+          500: "#0855df",
+        },
+      },
+    },
   },
   plugins: [],
 };
