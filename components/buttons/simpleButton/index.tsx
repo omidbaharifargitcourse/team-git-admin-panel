@@ -24,7 +24,7 @@ const SimpleButton: FC<ButtonProps | LinkProps> = ({
   return (
     <Tag
       href={href}
-      className={`flex gap-1.5 justify-center items-center p-3 text-sm font-bold bg-customBlue-500 text-white ${className}`}
+      className={`flex gap-1.5 justify-center items-center p-3 text-sm font-bold rounded-xl bg-customBlue-500 text-white ${className}`}
       {...props}
     >
       {children}

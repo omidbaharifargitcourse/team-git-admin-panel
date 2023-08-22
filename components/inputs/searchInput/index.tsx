@@ -20,7 +20,7 @@ const SearchInput: FC<props> = ({ containerClassName = "", ...props }) => {
     <div className={`relative text-customGray-300 ${containerClassName}`}>
       <input
         type="text"
-        className="w-full outline-none border-2 border-transparent border-solid bg-customGray-100 text-sm py-3 pl-3 pr-11"
+        className="w-full outline-none border-2 border-transparent border-solid bg-customGray-100 text-sm rounded-xl py-3 pl-3 pr-11"
         onChange={(e) => setSearchValue(e.target.value)}
         {...props}
       />
